@@ -1,0 +1,10 @@
+{% extends 'common_code/base.html' %} 
+{% load static %} {% block title %} Product {% endblock title %} {% block css %}
+<link rel="stylesheet" href="{% static 'css/style1.css' %}"> 
+{% endblock css %}
+{% block img %}
+<img src="{% static 'images/images.jpeg' %}" alt="ronodeep"> 
+{% endblock img %}
+{% block content %}
+<h1>This is our Product service page</h1> 
+{% endblock content %}
